@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab2Lib", "Lab2Lib.vcxproj", "{55CDF4AF-FC0E-4F55-BD81-35D5D659C3C7}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Lab2App", "..\Lab2App\x64\Debug\Lab2App.exe", "{CC192548-D970-49DC-91BC-AD2DB4197CAB}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\asaxa\source\repos\Lab2App\x64\Debug\Lab2App.exe
+		RemoteMachine = WINDOWS_X64
+		StartingDirectory = C:\Users\asaxa\source\repos\Lab2App\x64\Debug
+		Environment = По умолчанию
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55CDF4AF-FC0E-4F55-BD81-35D5D659C3C7}.Debug|x64.ActiveCfg = Debug|x64
+		{55CDF4AF-FC0E-4F55-BD81-35D5D659C3C7}.Debug|x64.Build.0 = Debug|x64
+		{55CDF4AF-FC0E-4F55-BD81-35D5D659C3C7}.Debug|x86.ActiveCfg = Debug|Win32
+		{55CDF4AF-FC0E-4F55-BD81-35D5D659C3C7}.Debug|x86.Build.0 = Debug|Win32
+		{55CDF4AF-FC0E-4F55-BD81-35D5D659C3C7}.Release|x64.ActiveCfg = Release|x64
+		{55CDF4AF-FC0E-4F55-BD81-35D5D659C3C7}.Release|x64.Build.0 = Release|x64
+		{55CDF4AF-FC0E-4F55-BD81-35D5D659C3C7}.Release|x86.ActiveCfg = Release|Win32
+		{55CDF4AF-FC0E-4F55-BD81-35D5D659C3C7}.Release|x86.Build.0 = Release|Win32
+		{CC192548-D970-49DC-91BC-AD2DB4197CAB}.Debug|x64.ActiveCfg = Release|x64
+		{CC192548-D970-49DC-91BC-AD2DB4197CAB}.Debug|x86.ActiveCfg = Release|x64
+		{CC192548-D970-49DC-91BC-AD2DB4197CAB}.Release|x64.ActiveCfg = Release|x64
+		{CC192548-D970-49DC-91BC-AD2DB4197CAB}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D4158C8-4A6D-4087-ACC7-1502F125B241}
+	EndGlobalSection
+EndGlobal
